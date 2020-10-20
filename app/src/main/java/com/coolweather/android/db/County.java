@@ -16,7 +16,7 @@ public class County extends LitePalSupport {
         return id;
     }
 
-    public int getCityId() {
+    public int getCountyId() {
         return cityId;
     }
 
@@ -24,11 +24,11 @@ public class County extends LitePalSupport {
         this.cityId = cityId;
     }
 
-    public String getCountryName() {
+    public String getCountyName() {
         return countyName;
     }
 
-    public void setCountryName(String countyName) {
+    public void setCountyName(String countyName) {
         this.countyName = countyName;
     }
 
